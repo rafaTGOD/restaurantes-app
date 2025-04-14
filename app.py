@@ -31,9 +31,6 @@ with col1:
     st.image("https://images.unsplash.com/photo-1600891964599-f61ba0e24092", use_container_width=True)
 with col2:
     st.write("### O que você deseja fazer hoje?")
-    st.page_link("pages/1_Cadastrar.py", label="📌 Cadastrar Novo Lugar", icon="📝")
-    st.page_link("pages/2_Explorar.py", label="🔍 Explorar Lugares Cadastrados", icon="🌎")
-    st.page_link("pages/2_Avaliar.py", label="🌟 Avaliar Locais", icon="📋")
-    st.page_link("pages/3_Ranking.py", label="🏆 Ver Ranking por Tipo", icon="📊")
+    st.write("### As páginas estão sendo carregadas corretamente?")
 
 
