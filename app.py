@@ -2,7 +2,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Minha Lista Gastronômica", layout="wide")
+st.set_page_config(page_title="Listinha de lugares", layout="wide")
 
 st.markdown("""
 <style>
@@ -17,8 +17,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="big-font">🍽️ Minha Lista Gastronômica</p>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle">Crie listas personalizadas, avalie lugares e explore novos destinos incríveis</p>', unsafe_allow_html=True)
+st.markdown('<p class="big-font">🍽️ Listinha de lugares (Word 2.0)</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">Criando listas e fazendo reviews pq somos profissionais 🤓👆</p>', unsafe_allow_html=True)
 
 # Seletor de usuário global estilizado
 st.markdown('<p class="selector-label">Selecione o usuário:</p>', unsafe_allow_html=True)
