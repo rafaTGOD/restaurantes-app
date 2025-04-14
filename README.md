@@ -1,13 +1,17 @@
 ]📌  Listinha de lugares
+
 Descrição
+
 Este projeto é uma aplicação interativa, desenvolvida com Streamlit, que permite aos usuários cadastrar, explorar, avaliar e rankear lugares gastronômicos. Os dados são armazenados no Supabase para garantir um backend robusto e confiável.
 
 Funcionalidades Principais
+
 📌 Cadastro de Locais
 
 Insira informações como nome, tipo, endereço, imagens e Instagram.
 
 Conecte os dados ao banco de dados Supabase.
+
 
 🌟 Avaliar Locais
 
@@ -17,6 +21,7 @@ Escreva um review para personalizar sua avaliação.
 
 Organize os lugares em listas personalizadas.
 
+
 🌎 Explorar Locais
 
 Utilize filtros por tipo, listas ou ordenação (nota média, tipo ou data).
@@ -24,6 +29,7 @@ Utilize filtros por tipo, listas ou ordenação (nota média, tipo ou data).
 Veja estatísticas globais sobre os locais cadastrados.
 
 Exiba avaliações associadas a cada lugar.
+
 
 🏆 Ranking por Tipo
 
@@ -47,6 +53,7 @@ folium (mapas interativos)
 python-dateutil
 
 statistics
+
 
 Instalação e Execução
 Clone o repositório:
