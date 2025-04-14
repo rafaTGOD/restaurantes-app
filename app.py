@@ -37,11 +37,11 @@ with col2:
     
     # Botões para navegação entre as páginas
     if st.button("📌 Cadastrar Novo Lugar"):
-        st.experimental_set_query_params(page="1_Cadastrar")
+        st.st.query_params(page="1_Cadastrar")
     if st.button("🔍 Explorar Lugares Cadastrados"):
-        st.experimental_set_query_params(page="2_Explorar")
+        st.st.query_params(page="2_Explorar")
     if st.button("🌟 Avaliar Locais"):
-        st.experimental_set_query_params(page="2_Avaliar")
+        st.st.query_params(page="2_Avaliar")
     if st.button("🏆 Ver Ranking por Tipo"):
         st.experimental_set_query_params(page="3_Ranking")
 
