@@ -1,0 +1,14 @@
+
+streamlit
+gspread
+oauth2client
+pandas
+python-dateutil
+Pillow
+streamlit-folium
+supabase
+folium
+streamlit-folium
+python-dateutil
+statistics
+
