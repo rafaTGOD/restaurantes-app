@@ -1,4 +1,4 @@
-]📌  Listinha de lugares
+# Listinha de lugares
 
 Descrição
 
